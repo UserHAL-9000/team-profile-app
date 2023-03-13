@@ -13,7 +13,7 @@ const Intern = require('./lib/Intern');
 //Pathway and location variables
 const dist_dir = path.resolve(__dirname, 'dist');
 const output = path.join(dist_dir, 'index.html');
-const render = require('./src/template.js');
+const render = require('./src/Structure.js');
 
 //Empty array to be built up
 const teamArray = [];

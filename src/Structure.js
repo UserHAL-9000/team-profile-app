@@ -30,7 +30,7 @@ module.exports = team => {
 const generateProfiles = team => {
     const generateManager = manager => {
         return `<div class="card employee-card manager-card">
-        <div class="card-header text-center">
+        <div class="card-header text-center text-white bg-primary">
             <h2 class="card-title">${manager.getName()}</h2>
             <h4 class="card-title">${manager.getRole()}</h4>
         </div>
@@ -45,7 +45,7 @@ const generateProfiles = team => {
     };
     const generateEngineer = engineer => {
         return `<div class="card employee-card engineer-card">
-        <div class="card-header text-center">
+        <div class="card-header text-center text-white bg-primary">
             <h2 class="card-title">${engineer.getName()}</h2>
             <h4 class="card-title">${engineer.getRole()}</h4>
         </div>
@@ -60,7 +60,7 @@ const generateProfiles = team => {
     };
     const generateIntern = intern => {
         return `<div class="card employee-card intern-card">
-        <div class="card-header text-center">
+        <div class="card-header text-center text-white bg-primary">
             <h2 class="card-title">${intern.getName()}</h2>
             <h4 class="card-title">${intern.getRole()}</h4>
         </div>
