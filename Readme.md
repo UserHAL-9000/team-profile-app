@@ -34,3 +34,8 @@ THEN I exit the application, and the HTML is generated
 ## Git Repo
 
 https://github.com/UserHAL-9000/team-profile-app
+
+## Video Walkthrough
+
+https://drive.google.com/file/d/1wSbxtG86sdtie7EO4dC1fwZFrTGdZeuR/view
+
